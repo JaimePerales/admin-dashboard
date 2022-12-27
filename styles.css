@@ -12,8 +12,48 @@
 }
 
 .header {
+    display: grid;
     background-color: #ffffff;
     grid-column: 2 / 3;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.header-top {
+    padding-top: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 7fr 3fr;
+    height: 50px;
+}
+
+.header-top form {
+    display: grid;
+    grid-template-columns: .5fr 8fr;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-top form input {
+    height: 35px;
+    align-self: start;
+    border-radius: 25px;
+    border: none;
+    background-color: lightgray;
+    padding-left: .5rem;
+}
+
+#search-button {
+    justify-self: end;
+    background-color: rgba(0, 0, 0, 0);
+    height: 35px;
+    width: 35px;
+    border: none;
+}
+
+#search-button svg {
+    height: 35px;
+    width: 35px;
 }
 
 .sidebar {
