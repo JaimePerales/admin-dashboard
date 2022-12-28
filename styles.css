@@ -43,15 +43,32 @@
     padding-left: .5rem;
 }
 
-#search-button {
-    justify-self: end;
+.not-bar {
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    gap: 25px;
+}
+
+#search-button,
+#not-button,
+#pro-button {
     background-color: rgba(0, 0, 0, 0);
     height: 35px;
     width: 35px;
     border: none;
 }
 
-#search-button svg {
+#pro-button svg {
+    border-radius: 100%;
+}
+
+#search-button {
+    justify-self: end;
+}
+
+#search-button svg,
+#not-button svg {
     height: 35px;
     width: 35px;
 }
