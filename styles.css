@@ -73,6 +73,27 @@
     width: 35px;
 }
 
+#profile-img svg {
+    height: 55px;
+    width: 55px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.welcome-msg {
+    display: grid;
+}
+
 .sidebar {
     display: grid;
     grid-template-rows: .75fr 2fr 2fr;
