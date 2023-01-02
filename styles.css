@@ -94,6 +94,23 @@
     display: grid;
 }
 
+.share-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 1rem;
+}
+
+.share-btns button {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 50px;
+    border: none;
+    background-color: #1d97d7;
+    color: white;
+}
+
 .sidebar {
     display: grid;
     grid-template-rows: .75fr 2fr 2fr;
