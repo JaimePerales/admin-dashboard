@@ -146,3 +146,42 @@ li {
     background-color: #e4e9f1;
     grid-column: 2 / 3;
 }
+
+.card {
+    position: relative;
+    display: flex;
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    color: black;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.card-line {
+    height: 100%;
+    width: 20px;
+    background-color: #f0b429;
+    border-radius: 200px 0 0 200px;
+    margin-right: 10px;
+}
+
+.card-btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    gap: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card-btns svg,
+.card-btns button {
+    height: 30px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
