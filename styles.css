@@ -73,7 +73,7 @@
     width: 35px;
 }
 
-#profile-img svg {
+.profile-img svg {
     height: 55px;
     width: 55px;
     margin-left: 30px;
@@ -192,4 +192,25 @@ li {
     width: auto;
     background-color: rgba(0, 0, 0, 0);
     border: none;
+}
+
+.misc-side {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2rem;
+}
+
+.announce {
+    color: black;
+    height: fit-content;
+    padding: 2rem;
+}
+
+.ann-mess {
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 368px;
 }
