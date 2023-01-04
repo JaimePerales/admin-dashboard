@@ -5,6 +5,7 @@
 
 .container {
     display: grid;
+    box-sizing: border-box;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
     width: 100vw;
@@ -16,11 +17,10 @@
     background-color: #ffffff;
     grid-column: 2 / 3;
     padding-left: 40px;
-    padding-top: 20px;
+    margin-top: 10px;
 }
 
 .header-top {
-    padding-top: 10px;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 7fr 3fr;
@@ -145,16 +145,24 @@ li {
 .main-content {
     background-color: #e4e9f1;
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 1rem;
+    margin: 1rem;
 }
 
 .card {
     position: relative;
     display: flex;
-    height: 250px;
-    width: 400px;
+    height: 200px;
+    width: 500px;
     background-color: white;
     color: black;
-    margin: 1rem;
     border-radius: 10px;
 }
 
